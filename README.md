@@ -238,13 +238,3 @@ terraform destroy
 ```
 
 ---
-
-## Testing
-
-Tests use pytest with FastAPI's `TestClient` and a mocked DynamoDB layer, so no live AWS connection is needed.
-
-```bash
-# From the project root
-pip install pytest
-pytest tests/
-```
