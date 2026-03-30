@@ -1,0 +1,13 @@
+.claude/
+.pytest_cache/
+.venv/
+CLAUDE.md
+OUTLINE.md
+tests/
+__pycache__/
+__init__.py
+.terraform/
+.env
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
